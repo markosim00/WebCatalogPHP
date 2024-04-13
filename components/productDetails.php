@@ -14,6 +14,9 @@ echo '
 <body>
     <div class="product-details">
         <div class="image-gallery">
+            <div class="product-info">
+              <h2 class="product-title">' . $product['title'] . '</h2>
+            </div>
             <div class="focused-image-container">
                 <img src="' . $product['thumbnail'] . '" alt="' . $product['title'] . '" class="focused-image" />
                 <!-- Dugmad za navigaciju kroz slike -->
@@ -27,7 +30,6 @@ echo '
             </div>
         </div>
         <div class="product-info">
-            <h2 class="product-title">' . $product['title'] . '</h2>
             <p class="product-description">' . $product['description'] . '</p>
             <table>
                 <tr>
