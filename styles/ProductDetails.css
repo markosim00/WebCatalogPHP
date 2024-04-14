@@ -260,16 +260,22 @@
   }
   
   @media (max-width: 768px) {
+
+    .product-title {
+      width: 100%;
+      align-self: center;
+      font-size: 24px;
+    }
     
     .price-and-discount {
         top: 20%;
-        right: 10%;
+        right: 2%;
         font-size: 20px;
     }
 
     .go-back-button {
         top: 20%;
-        left: 10%;
+        left: 0%;
     }
 
   }
